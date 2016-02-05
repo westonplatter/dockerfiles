@@ -1,2 +1,2 @@
 # dockerfiles
-Just a hog-pog of Dockerfile goodness
+Just a hodgepodge of Dockerfile goodness
