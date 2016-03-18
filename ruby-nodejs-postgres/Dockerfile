@@ -13,7 +13,3 @@ RUN apt-get update -qq \
     nodejs \
     locales
 
-# heroku toolbelt install
-RUN curl https://toolbelt.heroku.com/install.sh | sh
-ENV PATH $PATH:/usr/local/heroku/bin
-
