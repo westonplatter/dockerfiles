@@ -1,5 +1,6 @@
 FROM ruby:2.3.0
 
+# ruby, nodejs, pg dependencies
 RUN apt-get update -qq \
   && apt-get install -y \
     build-essential \
@@ -11,3 +12,8 @@ RUN apt-get update -qq \
     libxml2-dev \
     nodejs \
     locales
+
+# heroku toolbelt install
+RUN curl https://toolbelt.heroku.com/install.sh | sh
+ENV PATH $PATH:/usr/local/heroku/bin
+
