@@ -1,6 +1,6 @@
-FROM ruby:2.3.0
+FROM ruby:2.3.1
 
-# ruby, nodejs, pg dependencies
+# ruby, pg dependencies
 RUN apt-get update -qq \
   && apt-get install -y \
     build-essential \
@@ -10,6 +10,8 @@ RUN apt-get update -qq \
     liblzma-dev \
     libxslt-dev \
     libxml2-dev \
-    nodejs \
     locales
 
+# nodejs dependencies
+RUN apt-get install -y \
+    nodejs \
