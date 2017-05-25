@@ -5,10 +5,10 @@ ruby, nodejs, and postgres-header-files for rails env
 
 Versioned build
 ```sh
-docker build -t westonplatter/ruby-nodejs-postgres:2.2.3 -f Dockerfile-ruby-2.2.3 .
+docker build -t westonplatter/ruby-nodejs-postgres:2.4.0 -f Dockerfile-ruby-2.4.0 .
 ```
 
 Versioned push to docker hub
 ```sh
-docker push westonplatter/ruby-nodejs-postgres:2.2.3
+docker push westonplatter/ruby-nodejs-postgres:2.4.0
 ```
