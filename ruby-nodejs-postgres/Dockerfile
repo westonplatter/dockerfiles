@@ -1,1 +1,1 @@
-Dockerfile-ruby-2.3.1
+Dockerfile-ruby-2.4.0
