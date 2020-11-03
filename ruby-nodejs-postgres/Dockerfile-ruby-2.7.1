@@ -9,7 +9,8 @@ RUN apt-get update -qq \
     libxslt-dev \
     libxml2-dev \
     locales \
-    libpq-dev
+    libpq-dev \
+    postgresql-client
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install -y nodejs
